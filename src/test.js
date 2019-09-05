@@ -1,0 +1,1 @@
+initSqlJs.expandFileStorage = MEMFS.expandFileStorage;

@@ -28,18 +28,20 @@
 		"test-wasm": "node test/all.js wasm",
 		"test-wasm-debug": "node test/all.js wasm-debug"
 	},
-	"homepage": "http://github.com/kripken/sql.js",
+	"homepage": "http://github.com/missvalentinep/sql.js",
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/kripken/sql.js.git"
+		"url": "http://github.com/missvalentinep/sql.js.git"
 	},
 	"bugs": {
-		"url": "https://github.com/kripken/sql.js/issues",
+		"url": "https://github.com/missvalentinep/sql.js/issues",
 		"email": "pere.jobs@gmail.com"
 	},
 	"devDependencies": {
 		"test": ">=0.6",
 		"tiny-worker": "^2.1.2"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"coffee": "^5.2.2"
+	}
 }

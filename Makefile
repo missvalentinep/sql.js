@@ -37,7 +37,7 @@ EMFLAGS_WASM = \
 EMFLAGS_OPTIMIZED= \
 	-s INLINING_LIMIT=50 \
 	-O3 \
-	--closure 1
+	--closure 0
 
 EMFLAGS_DEBUG = \
 	-s INLINING_LIMIT=10 \
